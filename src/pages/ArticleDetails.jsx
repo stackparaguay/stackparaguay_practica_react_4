@@ -22,7 +22,11 @@ export default function ArticleDetails() {
 
   return (
     <div>
-      <img className="detailImg" src={article.image_url} alt={article.title} />
+      <img
+        className="detailImg"
+        // src={Renderizar la imagen del artículo}
+        // alt={Renderizar el título del artículo}
+      />
       <h3>{/*Renderizar el título del artículo */}</h3>
       <p className="muted">
         {/*Renderizar la fecha de publicación artículo */}

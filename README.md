@@ -1,6 +1,6 @@
 # Mini News Cards
 
-Proyecto final Introducción al Desarrollo Web I: Listado en cards + Detalle por ruta usando React Router.
+Práctica final Introducción al Desarrollo Web I
 
 ## Tecnologías
 
@@ -13,13 +13,6 @@ Proyecto final Introducción al Desarrollo Web I: Listado en cards + Detalle por
 - Spaceflight News API (sin key)
 - Base: `https://api.spaceflightnewsapi.net/v4`
 
-## Ejecutar
-
-```bash
-npm install
-npm run dev
-```
-
 ## Estructura
 
 - `src/pages/Home.jsx` (listado)
@@ -30,9 +23,18 @@ npm run dev
 ## Método de resolución (paso a paso)
 
 1. Clonar el repositorio:
-   - `git clone https://github.com/stackparaguay/stackparaguay_practica_react_4.git`
-2. Instalar dependencias:
-   - `npm install`
+
+```bash
+git clone https://github.com/stackparaguay/stackparaguay_practica_react_4.git
+```
+
+2. Instalar dependencias y Correr el proyecto:
+
+```bash
+npm install
+npm run dev
+```
+
 3. Acceder al fichero `/src/`
 4. Crear rutas en el componente `App.jsx`
    - `/` (listado)
